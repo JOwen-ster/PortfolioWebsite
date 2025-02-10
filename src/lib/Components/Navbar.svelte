@@ -11,8 +11,9 @@
         flex-direction: row;
         justify-content: center;
         text-decoration: none;
-        background-color: #1c1c1c;
-        padding: 5px;
+        background-color: rgba(28, 28, 28, 0.7); /* Slight transparency */
+        backdrop-filter: blur(10px);
+        padding: 10px;
     }
 
     nav {
@@ -23,10 +24,10 @@
 
     nav a {
         font-weight: bold;
+        font-size: 50px;
         position: relative;
         text-decoration: none;
         color: #333;
-        padding: 5px 0;
         transition: color 0.3s ease-in-out;
     }
 
@@ -56,8 +57,8 @@
 <div class="nav-container">
     <nav>
         <a href="./">Home</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Projects">Projects</a>
+        <a href="#Contact">Contact</a>
     </nav>
 </div>

@@ -6,13 +6,13 @@
 
 <style>
     p {
-        padding-top: 50px; /* Adjust based on navbar height */
+        padding-top: 80px; /* Adjust based on navbar height */
     }
 </style>
 
 <Navbar/>
 <Hero content={'Owen Sterling'}/>
-<p id="skills">Skills</p>
+<p id="Skills">Skills</p>
 <br>
 <br>
 <br>
@@ -23,7 +23,7 @@
 <br>
 <br>
 <br>
-<p id="projects">Projects</p>
+<p id="Projects">Projects</p>
 <br>
 <br>
 <br>
@@ -34,7 +34,7 @@
 <br>
 <br>
 <br>
-<p id="contact">Contact Me</p>
+<p id="Contact">Contact Me</p>
 <br>
 <br>
 <br>
