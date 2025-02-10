@@ -5,9 +5,7 @@
 </script>
 
 <Navbar/>
-
 <Hero content={'Owen Sterling'}/>
-
 <p id="home">Home</p>
 <br>
 <br>
