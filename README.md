@@ -30,5 +30,6 @@
 - **Content will be in a styled window component**
 
 **Create a web app that gives information about my api's**
-* Online/Offline
-* Methods
+
+- Online/Offline
+- Methods

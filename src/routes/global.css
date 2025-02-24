@@ -1,7 +1,8 @@
-html, body {
-    background-color: #000;
-    color: #FFF;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+html,
+body {
+	background-color: #001220;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
 }
