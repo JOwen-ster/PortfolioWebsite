@@ -1,15 +1,15 @@
 <script>
     let { header, content } = $props();
-    import Window from "./Window.svelte";
 </script>
+
 
 <style>
     .wave {
+        aspect-ratio: 900/450;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        aspect-ratio: 900/450;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -17,6 +17,4 @@
     }
 </style>
 
-<section class="wave">
-    <Window header={header} content={content}/>
-</section>
+<section class="wave"></section>

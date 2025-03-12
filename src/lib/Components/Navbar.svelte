@@ -2,8 +2,9 @@
 
 </script>
 
+
 <style>
-	.nav-container {
+	nav {
 		display: flex;
 		position: sticky;
 		top: 0;
@@ -13,17 +14,15 @@
 		background-color: rgba(28, 28, 28, 0.7); /* Slight transparency */
 		backdrop-filter: blur(10px);
 		padding: 10px;
-	}
-
-	nav {
-		display: flex;
-		flex-direction: row;
 		gap: 20px;
+		margin: 2.5vh 25vw 2.5vh 25vw;
+		border-radius: 50px;
+		box-shadow: 0 0 10px rgba(255, 0, 255, 0.3);
 	}
 
 	nav a {
 		font-weight: bold;
-		font-size: 50px;
+		font-size: 1rem;
 		position: relative;
 		text-decoration: none;
 		color: #333;
@@ -31,7 +30,7 @@
 	}
 
 	nav a:hover {
-		color: #007bff;
+		color: #0066ff;
 	}
 
 	nav a::after {
@@ -40,8 +39,8 @@
 		left: 0;
 		bottom: 0;
 		width: 100%;
-		height: 3px;
-		background-color: #007bff;
+		height: 2px;
+		background-color: #0066ff;
 		transform: scaleX(0);
 		transform-origin: right;
 		transition: transform 0.3s ease-in-out;
@@ -53,12 +52,10 @@
 	}
 </style>
 
-<div class="nav-container">
-	<nav>
-		<a href="./">Home</a>
-		<a href="#About">About</a>
-		<a href="#Skills">Skills</a>
-		<a href="#Projects">Projects</a>
-		<a href="#Contact">Contact</a>
-	</nav>
-</div>
+<nav>
+	<a href="./">Home</a>
+	<a href="#About">About</a>
+	<a href="#Skills">Skills</a>
+	<a href="#Projects">Projects</a>
+	<a href="#Contact">Contact</a>
+</nav>

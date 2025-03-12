@@ -2,19 +2,6 @@
 	let { content } = $props();
 </script>
 
-<div class="hero-container">
-	<div>
-		<p class="hero-element">Hello! My name is</p>
-
-		<p class="hero-header">{content}</p>
-
-		<p class="hero-element">I'm a fullstack software engineer.</p>
-	</div>
-
-	<div>
-		<img src="/favicon.png" alt="Owen Sterling" />
-	</div>
-</div>
 
 <style>
 	.hero-container {
@@ -22,7 +9,9 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		background: black;
+		background: #1a1a1a;
+		margin: 2.5vh 10vw;
+		border-radius: 50px;
 	}
 
 	.hero-element {
@@ -37,3 +26,12 @@
 		-webkit-text-fill-color: transparent;
 	}
 </style>
+
+
+<div class="hero-container">
+	<p class="hero-element">Hello! My name is</p>
+	<p class="hero-header">{content}</p>
+	<p class="hero-element">I'm a fullstack software engineer.</p>
+
+	<img src="/favicon.png" alt="Owen Sterling"/>
+</div>

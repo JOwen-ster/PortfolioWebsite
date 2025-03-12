@@ -14,13 +14,10 @@
 <Navbar />
 <Hero content={'Owen Sterling'} />
 <p id="About">About</p>
-<WaveSection header={'About'} content={'Content'} />
 
 <p id="Skills">Skills</p>
-<WaveSection header={'Skills'} content={'Content'} />
 
 <p id="Projects">Projects</p>
-<WaveSection header={'Projecs'} content={'Content'} />
 
 <p id="Contact">Contact Me</p>
 <WaveSection header={'Contact Me'} content={'Content'} />
