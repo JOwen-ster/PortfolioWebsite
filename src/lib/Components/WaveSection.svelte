@@ -13,7 +13,7 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        background-image: url('bluelayeredwaves.svg');
+        background-image: url('purplelayeredwaves.svg');
     }
 </style>
 
